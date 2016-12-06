@@ -1,3 +1,12 @@
 <h1>
-  {{title}}
+  {{ title }}
 </h1>
+
+<h2> {{hero.name}} details</h2>
+
+<ul>
+  <li> {{ hero.id }} </li>
+  <li> 
+    <label>name: </label>
+    <input [(ngModel)]="hero.name" placeholder="name"></li>  
+</ul>
